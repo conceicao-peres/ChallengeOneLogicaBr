@@ -1,18 +1,3 @@
-
-/* Regras Codificador: 
-"e" é convertido para "enter" 
-"i" é convertido para "imes"
-"a" é convertido para "ai"
-"o" é convertido para "ober"
-"u" é convertido para "ufat"
-Apenas letras minúsculas
-Não permite acentuação   
-
-var caixaTexto = document.querySelector("#input-texto");
-var text = caixaTexto.placeholder;
-alert(text)
-*/
-
 var input = document.querySelector("#input-texto")
 var button = document.querySelector("#btn-cripto")
 var buttonDecripta = document.querySelector("#btn-descripto")
@@ -39,16 +24,4 @@ function copiar(){
 
 button.onclick = cripto
 buttonDecripta.onclick = decripta
-copyButton.addEventListener("click", copiar);
-
-
-
-/* Regras Decodificador: 
-"enter" é convertido para "e" 
-"imes" é convertido para "i"
-"ai" é convertido para "a"
-"ober" é convertido para "o"
-"ufat" é convertido para "u"
-Apenas letras minúsculas
-Não permite acentuação     
-*/
+copyButton.addEventListener("click", copiar)
