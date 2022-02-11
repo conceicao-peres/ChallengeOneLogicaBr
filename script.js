@@ -44,13 +44,14 @@ function validarMaiuscula(){
 
 function decripta(){
     var msgCripto = input.value
-    if(msgCripto == ""){
-        alert("Diigte um texto para ser descriptografado")
-        input.focus()
-    }else{
+    if(msgCripto != "" ){
         var textoDecripto = msgCripto.replace(/enter/gi,"e").replace(/imes/gi,"i").replace(/ai/gi,"a").replace(/ober/gi,"o").replace(/ufat/gi, "u")
         alert(textoDecripto)
         limpaTela()
+
+    }else{
+        alert("Diigte um texto para ser descriptografado")
+        input.focus()
     }
 }
 
