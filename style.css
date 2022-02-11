@@ -17,12 +17,9 @@ body {
 }
 
 .titulo {
-  font-family: Comic Sans Ms;
-  font-size: 40px;
+  text-align: center; 
   color: blue;
-  padding: 15px;
-  width: 30vw;
-  margin: auto;
+  font-size: 40px;
 
 }
 
