@@ -20,8 +20,8 @@ body {
   text-align: center; 
   color: blue;
   font-size: 40px;
-
-}
+  margin: 20px 0;;
+ }
 
 .box {
   padding: 10px;
@@ -52,10 +52,21 @@ body {
   height: 50px;
 }
 
-.rodape{
+footer{
   text-align: center;
+  padding: 40px 0;
+  font-size: 13px;
 }
 
-.contatos{
+footer img{
+  width: 20px;
+}
+
+.challenge{
+  font-weight: bold;
+}
+
+.copyright{
   text-align: center;
+  margin: 10px 0; 
 }
